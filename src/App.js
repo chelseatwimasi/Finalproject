@@ -1,16 +1,18 @@
-import React, {Component} from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Search from "./Components/search";
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {};
   }
 
   render() {
     return (
-      <div className="App">
-        <h1>Hello React App</h1>
+      <div className="h1">
+        <h1>The New York Times</h1>
+        <h2>Top Five Death Causing Diseases</h2>
       </div>
     );
   }
