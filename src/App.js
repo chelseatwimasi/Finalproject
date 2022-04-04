@@ -15,9 +15,9 @@ class App extends Component {
 
   render() {
     return (
-      <div className="h1">
+      <div className="App">
         <h1>The New York Times</h1>
-        <h2>Top Five Death Causing Diseases</h2>
+        <h2>Top Five Death Causng Diseases</h2>
         <CardList images={data} />
       </div>
     );
