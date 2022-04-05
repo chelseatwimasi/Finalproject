@@ -1,5 +1,19 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  background-image: url("https://cdn.cancercenter.com/-/media/ctca/images/others/blogs/2018/09-september/04-blog-cancer-cells-l.jpg");
+  background-position: center top;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-color: rgba(0, 0, 0, 0.7); /* not working */
 }
+.wrapper {
+  height: 80px;
+  margin: 10px;
+  color: goldenrod;
+}
+
+.background {
+  width: 100%;
+  position: absolute;
+  left: 50%;

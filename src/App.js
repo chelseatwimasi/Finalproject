@@ -16,6 +16,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <section>
+          <div className="wrapper css">
+            Writing Message on top of background-image
+          </div>
+        </section>
+
         <h1>The New York Times</h1>
         <h2>Top Five Death Causng Diseases</h2>
         <CardList images={data} />
