@@ -8,8 +8,8 @@ function Card(props) {
     <li className="cards-item fourth">
       <div className="card">
         <div className="card-content">
-          <CardImage island={props.island} />
-          <CardInfo island={props.island} />
+          <CardImage disease={props.disease} />
+          <CardInfo disease={props.disease} />
         </div>
       </div>
     </li>

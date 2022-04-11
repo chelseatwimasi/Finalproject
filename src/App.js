@@ -13,8 +13,8 @@ function App() {
 
       <div className="container">
         <ul className="cards">
-          {data.islands.map((island) => {
-            return <Card island={island} />;
+          {data.diseases.map((disease) => {
+            return <Card disease={disease} />;
           })}
         </ul>
       </div>
