@@ -5,10 +5,10 @@ import WikiButton from "./WikiButton.js";
 function CardInfo(props) {
   return (
     <div className="card-container">
-      <div className="card-title">{props.island.name}</div>
-      <p className="card-text description">{props.island.description}</p>
+      <div className="card-title">{props.disease.name}</div>
+      <p className="card-text description">{props.disease.description}</p>
       <p className="card-text lat-lon"></p>
-      <WikiButton link={props.island.wiki} />
+      <WikiButton link={props.disease.wiki} />
     </div>
   );
 }

@@ -3,4 +3,5 @@
 .App {
   text-align: center;
   font-family: Pacifico;
+  font-size: calc(10px + 3vmin);
 }
