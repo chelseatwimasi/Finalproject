@@ -1,4 +1,4 @@
-let data = {
+let disease = {
   source: "https://en.wikipedia.org/wiki/Atlas_of_Remote_Islands",
   diseases: [
     {
@@ -47,4 +47,4 @@ let data = {
   ]
 };
 
-export default data;
+export default disease;

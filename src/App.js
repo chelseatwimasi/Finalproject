@@ -1,12 +1,20 @@
 import React, { Component } from "react";
 import "./App.css";
 import Card from "./Components/Card.js";
-import data from "./diseases.js";
+import disease from "./diseases.js";
+import Graph from "./Components/Graph.js";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {};
+    data: [
+      { name: "MR TAKA RAMEN", grade: "33" },
+      { name: "SWAY LOUNGE", grade: "0" },
+      { name: "CIRCLE LINE QUEENS", grade: "5" },
+      { name: "SUBWAY", grade: "13" },
+      { name: "EL MANANTIAL BAKERY", grade: "10" }
+    ];
   }
 
   render() {
@@ -19,9 +27,10 @@ class App extends Component {
 
         <div className="container">
           <ul className="cards">
-            {data.diseases.map((disease) => {
+            {disease.diseases.map((disease) => {
               return <Card disease={disease} />;
             })}
+            <Graph />
           </ul>
         </div>
       </div>
