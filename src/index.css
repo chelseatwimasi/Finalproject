@@ -4,6 +4,7 @@ body {
   background-image: url("https://cdn.cancercenter.com/-/media/ctca/images/others/blogs/2018/09-september/04-blog-cancer-cells-l.jpg");
   background-position: center top;
   background-size: cover;
+  text-align: center;
   /* background-repeat: no-repeat; */
 }
 
