@@ -43,6 +43,32 @@ let disease = {
         "https://www.aans.org/en/Patients/Neurosurgical-Conditions-and-Treatments/Cerebrovascular-Disease",
       description:
         "Cerebrovascular disease refers to a group of conditions that affect blood flow and the blood vessels in the brain. "
+    },
+    {
+      name: "Human Immunodeficiency Virus Disease",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HIV-budding-Color.jpg/1200px-HIV-budding-Color.jpg",
+      wiki:
+        "https://www.aans.org/en/Patients/Neurosurgical-Conditions-and-Treatments/Cerebrovascular-Disease",
+      description:
+        "Cerebrovascular disease refers to a group of conditions that affect blood flow and the blood vessels in the brain. "
+    },
+    {
+      name: "Essential Hypertension and Renal Diseases",
+      image: "https://ssl.adam.com/graphics/images/en/8818.jpg",
+      wiki:
+        "https://my.clevelandclinic.org/health/diseases/16459-renal-hypertension",
+      description:
+        "In the phrase “renal hypertension,” “renal” relates to your kidneys and “hypertension” means high blood pressure.  "
+    },
+    {
+      name: "Chronic Lower Respiratory Diseases",
+      image:
+        "https://www.clinicaladvisor.com/wp-content/uploads/sites/11/2019/07/COPD-Rotator_CA_0819-860x574.jpg",
+      wiki:
+        "https://www.aans.org/en/Patients/Neurosurgical-Conditions-and-Treatments/Cerebrovascular-Disease",
+      description:
+        "Cerebrovascular disease refers to a group of conditions that affect blood flow and the blood vessels in the brain. "
     }
   ]
 };

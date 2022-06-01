@@ -5,7 +5,7 @@ function Graph() {
   const sample = [
     {
       category: "M",
-      values: [33, 0, 5, 13, 10],
+      values: [87, 86, 86, 84, 81],
       types: [
         "MALIGNANT NEOPLASMS (CANCER)",
         "INFLUENZA (FLU) AND PNEUMONIA",
@@ -36,7 +36,7 @@ function Graph() {
     <div>
       <div>
         <button onClick={handleClick} id="M">
-          Manhattan
+          Highest Deaths Per Disease
         </button>
         <button onClick={handleClick} id="B">
           Bronx

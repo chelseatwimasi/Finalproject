@@ -4,7 +4,6 @@ import Card from "./Components/Card.js";
 import disease from "./diseases.js";
 import Graph from "./Components/Graph.js";
 import NavBar from "./Components/NavBar.js";
-import ImportantPage from "./Components/ImportantPage.js";
 
 class App extends Component {
   constructor(props) {
@@ -24,7 +23,7 @@ class App extends Component {
       <div>
         <div className="App">
           <NavBar />
-          <ImportantPage />
+
           <h1>The New York Times</h1>
           <h2>Top Five Death Causng Diseases</h2>
         </div>
@@ -41,25 +40,5 @@ class App extends Component {
     );
   }
 }
-//function App() {
-// console.log(data.islands[0].name);
-
-// render() {
-
-//     <div className="App">
-//      <h1>The New York Times</h1>
-//      <h2>Top Five Death Causng Diseases</h2>
-//   <div className="container">
-//     <h2 className="section-title">Islands</h2>
-//    <ul className="cards">
-//      {data.islands.map((island) => {
-//       return <Card island={island} />;
-//     })}
-//   </ul>
-//  </div>
-//     </div>
-//   );
-// }
-//}
 
 export default App;
