@@ -25,10 +25,20 @@ function Graph() {
         "CEREBROVASCULAR DISEASE"
       ]
     },
-    { category: "B2", values: [84, 23, 54, 51], types: ["k", "l", "m", "n"] },
+    {
+      category: "B2",
+      values: [22, 16, 25, 14, 19],
+      types: [
+        "MALIGNANT NEOPLASMS (CANCER)",
+        "INFLUENZA (FLU) AND PNEUMONIA",
+        "HEART DISEASE",
+        "DIABETES",
+        "CEREBROVASCULAR DISEASE"
+      ]
+    },
     {
       category: "F",
-      values: [92, 85, 95, 83, 88],
+      values: [16, 22, 13, 24, 19],
       types: [
         "MALIGNANT NEOPLASMS (CANCER)",
         "INFLUENZA (FLU) AND PNEUMONIA",
