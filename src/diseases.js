@@ -48,10 +48,9 @@ let disease = {
       name: "Human Immunodeficiency Virus Disease",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HIV-budding-Color.jpg/1200px-HIV-budding-Color.jpg",
-      wiki:
-        "https://www.aans.org/en/Patients/Neurosurgical-Conditions-and-Treatments/Cerebrovascular-Disease",
+      wiki: "https://www.cdc.gov/hiv/basics/whatishiv.html",
       description:
-        "Cerebrovascular disease refers to a group of conditions that affect blood flow and the blood vessels in the brain. "
+        "HIV is a a virus that attacks the body's immune system. It causes AIDS and interferes with the body's ability to fight infections."
     },
     {
       name: "Essential Hypertension and Renal Diseases",
@@ -66,9 +65,9 @@ let disease = {
       image:
         "https://www.clinicaladvisor.com/wp-content/uploads/sites/11/2019/07/COPD-Rotator_CA_0819-860x574.jpg",
       wiki:
-        "https://www.aans.org/en/Patients/Neurosurgical-Conditions-and-Treatments/Cerebrovascular-Disease",
+        "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2786682",
       description:
-        "Cerebrovascular disease refers to a group of conditions that affect blood flow and the blood vessels in the brain. "
+        "CLRD is defined by CDC as encompassing 4 major diseases: chronic obstructive pulmonary disease (COPD), chronic bronchitis, emphysema, and asthma. "
     }
   ]
 };

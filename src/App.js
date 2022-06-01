@@ -8,14 +8,9 @@ import NavBar from "./Components/NavBar.js";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
-    data: [
-      { name: "MR TAKA RAMEN", grade: "33" },
-      { name: "SWAY LOUNGE", grade: "0" },
-      { name: "CIRCLE LINE QUEENS", grade: "5" },
-      { name: "SUBWAY", grade: "13" },
-      { name: "EL MANANTIAL BAKERY", grade: "10" }
-    ];
+    this.state = {
+      data: []
+    };
   }
 
   render() {

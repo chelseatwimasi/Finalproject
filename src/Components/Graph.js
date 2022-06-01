@@ -5,7 +5,7 @@ function Graph() {
   const sample = [
     {
       category: "M",
-      values: [87, 86, 86, 84, 81],
+      values: [92, 85, 95, 83, 88],
       types: [
         "MALIGNANT NEOPLASMS (CANCER)",
         "INFLUENZA (FLU) AND PNEUMONIA",
@@ -16,10 +16,27 @@ function Graph() {
     },
     {
       category: "B",
-      values: [45, 121, 76, 12, 98],
-      types: ["f", "g", "h", "i", "j"]
+      values: [40, 34, 43, 32, 37],
+      types: [
+        "MALIGNANT NEOPLASMS (CANCER)",
+        "INFLUENZA (FLU) AND PNEUMONIA",
+        "HEART DISEASE",
+        "DIABETES",
+        "CEREBROVASCULAR DISEASE"
+      ]
     },
-    { category: "B2", values: [84, 23, 54, 51], types: ["k", "l", "m", "n"] }
+    { category: "B2", values: [84, 23, 54, 51], types: ["k", "l", "m", "n"] },
+    {
+      category: "F",
+      values: [92, 85, 95, 83, 88],
+      types: [
+        "MALIGNANT NEOPLASMS (CANCER)",
+        "INFLUENZA (FLU) AND PNEUMONIA",
+        "HEART DISEASE",
+        "DIABETES",
+        "CEREBROVASCULAR DISEASE"
+      ]
+    }
   ];
 
   const [data, setData] = useState([]);
@@ -39,10 +56,13 @@ function Graph() {
           Highest Deaths Per Disease
         </button>
         <button onClick={handleClick} id="B">
-          Bronx
+          African American Deaths Per Disease
         </button>
         <button onClick={handleClick} id="B2">
-          Bronx2
+          Male African American Deaths Per Disease
+        </button>
+        <button onClick={handleClick} id="F">
+          Female African American Deaths Per Disease
         </button>
       </div>
       <Plot
